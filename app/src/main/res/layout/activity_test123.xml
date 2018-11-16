@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_Latitude"
+        style="@style/TextStyle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/tv_Longitude"
+        style="@style/TextStyle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/tv_Altitude"
+        style="@style/TextStyle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/tv_Accuracy"
+        style="@style/TextStyle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/tv_Time"
+        style="@style/TextStyle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/tv_Speed"
+        style="@style/TextStyle" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/tv_Bearing"
+        style="@style/TextStyle"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:background="#eee" />
+
+
+
+
+</LinearLayout>

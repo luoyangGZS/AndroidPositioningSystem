@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">洛阳定位</string>
+    <string name="zhucezhanghao"><u>注册账号</u></string>
+    <string name="title_activity_message_center">MessageCenterActivity</string>
+</resources>

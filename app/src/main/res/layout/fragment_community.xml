@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_Thirdly_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="please input infor..." >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/bt_one_gaode"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+
+        android:text="高德地图" />
+
+
+    <Button
+        android:id="@+id/bt_two_baidu"
+        android:layout_width="match_parent"
+
+        android:layout_height="80dp"
+        android:text="百度地图" />
+
+    <Button
+        android:id="@+id/bt_three_google"
+        android:layout_width="match_parent"
+
+        android:layout_height="80dp"
+        android:text="谷歌地图" />
+
+</LinearLayout>

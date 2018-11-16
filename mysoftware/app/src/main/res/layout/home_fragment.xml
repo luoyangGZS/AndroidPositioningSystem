@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_Latitude1"
+        style="@style/TextStyle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/tv_Longitude1"
+        style="@style/TextStyle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/tv_Altitude1"
+        style="@style/TextStyle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/tv_Accuracy1"
+        style="@style/TextStyle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/tv_Time1"
+        style="@style/TextStyle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/tv_Speed1"
+        style="@style/TextStyle" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/tv_Bearing1"
+        style="@style/TextStyle"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="45dp"
+        android:background="#eee" />
+
+    <Button
+        android:id="@+id/bt_test_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="定位信息显示" />
+
+
+</LinearLayout>
